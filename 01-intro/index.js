@@ -3,4 +3,4 @@ var svg = d3.select("svg")
 						.attr("height",500);
 
 var circles = d3.selectAll("circle")
-									.attr("r", Math.floor(Math.random()*100));
+    .attr("r", Math.floor(Math.random()*100));
